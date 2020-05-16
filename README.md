@@ -1,5 +1,5 @@
 # Random Problem Solving
-Solving various random problems \
+Solving various random problems 
 
 # For Prime Number checker
 For large values such as 15485863 which is Prime it takes 1.9198858737945557 sec to complete \
