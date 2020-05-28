@@ -2,7 +2,7 @@ import time
 def checkPrime(a):
     if a == '2' or a == '5':
         return True
-    elif a[-1] in ('1', '3', '7') and (( int(a) * int(a) ) - 1 ) % 24 == 0: 
+    elif a[-1] in ('1', '3', '7', '9') and (( int(a) * int(a) ) - 1 ) % 24 == 0: 
         return(loopcheck(int(a)))
     else:
         return False
