@@ -10,7 +10,7 @@ but to check if it is not a Prime ie. 15485865 it takes only 0.00199580192565917
 Enter the values of suduko row-wise where empty are kept 0 then run it.
 
 ## Shuffle String
-Takes in input as `string = "JAR"` and index of that string as `index = [2, 1, 0]` and shuffles the string with respect to index in ascending order.
+Takes in input as `string = "JAR"` and index of that string as `index = [2, 1, 0]` and shuffles the string with respect to index in ascending order to "RAJ"
 
 ## Minimum Time To Visit all Points
 Takes input as `l = [[1,2], [3,3]]` and finds the shortest time to reach all.\
