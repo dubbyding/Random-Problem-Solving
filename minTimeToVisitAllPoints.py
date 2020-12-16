@@ -1,21 +1,23 @@
 class Solution:
-    def countCharacters(self, words: list[str], chars: str) -> int:
-        totalCount = 0
-        for i in words:
-            list1 = []
-            list1[:0] = chars
-            list2 = []
-            list2[:0] = i
-            count = 0
-            for j in list2:
-                if j in list1:
+    def minTimeToVisitAllPoints(self, points: list[list[int]]) -> int:
+        count = 0
+        for i in range(0, len(points)-1):
+            n = True
+            while(n):
+                if points[i][1] == points[i+1][1] and points[i][0] == points[i+1][0]:
+                    n = False
+                else:
                     count += 1
-                    list1.remove(j)
-            if count == len(list2):
-                totalCount += count
-        return totalCount
+                if points[i][0] < points[i+1][0]:
+                    points[i][0] += 1
+                if points[i][0] > points[i+1][0]:
+                    points[i][0] -= 1
+                if points[i][1] < points[i+1][1]:
+                    points[i][1] += 1
+                if points[i][1] > points[i+1][1]:
+                    points[i][1] -= 1
+        return count
 
-words = ["cat","bt","hat","tree"]
-chars = "atach"
+a = [[1, 1], [3, 3]]
 s = Solution()
-print(s.countCharacters(words, chars))
+answer = s.minTimeToVisitAllPoints(a)
