@@ -13,7 +13,7 @@ Enter the values of suduko row-wise where empty are kept 0 then run it.
 Takes in input as `string = "JAR"` and index of that string as `index = [2, 1, 0]` and shuffles the string with respect to index in ascending order to "RAJ"
 
 ## Minimum Time To Visit all Points
-Takes input as `l = [[1,2], [3,3]]` and finds the shortest time to reach all.\
+Takes input as `l = [[1,2], [3,3]]` and finds the shortest time to reach all.
 * Here, Each traverse is considered as 1 and in each traverse one can go horizontally, diagonally or vertically as per required.
 
 ## Find Words That Can Be Formed by Characters
