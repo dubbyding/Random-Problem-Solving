@@ -23,13 +23,13 @@ Takes list of words and a string. Check if the combination of letters in that st
 Input number of dice, number of face and which number you want to get(target) in the result and it shows total number of dice combination that can give target number.
 
 ## Levine Series
-It's a series got by adding n number i times as a string where n is given by position of digit given and i number in n digit.
-
-2=> has "2" number in 1st digit hence next number is 1 for 2 times
-11=> has "1" number in 1st digit and "1" number in 2nd digit so next number is "12"
-12=> has "2" number in 1st digit and "1" number in 2nd digit so next number is "112"
-and so on
-
-sum of each term is collected and then displayed.
-
-*WARNING: THIS GETS LARGE VERY FAST SO PUTTING MAXIMUM NUMBER OVER 10 CAN MAKE COMPUTER HANG*
+It's a series got by adding n number i times as a string where n is given by position of digit given and i number in n digit.\
+\
+2=> has "2" number in 1st digit hence next number is 1 for 2 times\
+11=> has "1" number in 1st digit and "1" number in 2nd digit so next number is "12"\
+12=> has "2" number in 1st digit and "1" number in 2nd digit so next number is "112"\
+and so on\
+\
+sum of each term is collected and then displayed.\
+\
+*WARNING: THIS GETS LARGE VERY FAST SO PUTTING MAXIMUM NUMBER OVER 10 CAN MAKE COMPUTER HANG*\
